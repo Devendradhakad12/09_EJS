@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll dise</title>
+  </head>
+  <body>
+    <h1>Dice gave value : <%= diceVal %></h1>
+    <button id="button" style="cursor: pointer">Get number</button>
+
+    <p>conditional statement in EJS 👇</p>
+    <% if(diceVal==6){ %>
+    <h2>Good! roll dice again</h2>
+    <% } %>
+    
+    <script>
+      let btn = document.getElementById("button");
+      btn.addEventListener("click", () => {
+        window.location.reload(true);
+      });
+    </script>
+  </body>
+</html>

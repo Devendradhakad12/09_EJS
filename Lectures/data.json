@@ -1,0 +1,57 @@
+{
+  "dev": {
+    "id": 0,
+    "class": "B.sc third year",
+    "followers":2000,
+    "following":3,
+    "posts":[
+      {
+        "image":"https://picsum.photos/id/237/536/354",
+        "likes":300,
+        "comments":30
+      },
+      {
+        "image":"https://cdn.pixabay.com/photo/2015/03/17/02/01/cubes-677092_1280.png",
+        "likes":430,
+        "comments":33
+      }
+    ]
+  },
+  "ajay": {
+    "id": 1,
+    "class": " BCA second year ",
+    "followers":1500,
+    "following":3,
+    "posts":[
+      {
+        "image":"https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+        "likes":160,
+        "comments":46
+      }
+      ,
+      {
+        "image":"https://cdn.pixabay.com/photo/2015/03/17/02/01/cubes-677092_1280.png",
+        "likes":430,
+        "comments":33
+      }
+    ]
+  },
+  "pavan": {
+    "id": 2,
+    "class": "MCA First year",
+    "followers":1700,
+    "following":3,
+    "posts":[
+      {
+        "image":"https://cdn.pixabay.com/photo/2015/03/17/02/01/cubes-677092_1280.png",
+        "likes":430,
+        "comments":33
+      },
+      {
+        "image":"https://cdn.pixabay.com/photo/2015/03/17/02/01/cubes-677092_1280.png",
+        "likes":430,
+        "comments":33
+      }
+    ]
+  }
+}

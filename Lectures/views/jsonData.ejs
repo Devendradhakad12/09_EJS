@@ -1,0 +1,21 @@
+<%- include("includes/head.ejs") %>
+<body>
+  <h1>name : <%= name %></h1>  
+  <h2>class : <%= userData.class %> </h2>
+  <h2>Followers : <%= userData.followers %> </h2>
+  <h2>Following : <%= userData.following %> </h2>
+  <hr>
+<div class="postDiv">
+    <% for(let post of userData.posts){ %>
+  <div class="post">
+    <img src="<%= post.image %>" alt="image">
+    <h3>Liks <%= post.likes %> </h3>
+    <h3>comments <%= post.comments %> </h3>
+  </div>
+      
+      
+        <% } %>
+</div>
+
+</body>
+</html>
