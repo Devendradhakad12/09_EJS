@@ -1,0 +1,17 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+.postDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+margin: 20px;
+justify-content: center;
+align-items: center;
+}

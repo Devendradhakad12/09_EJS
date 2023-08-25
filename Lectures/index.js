@@ -2,8 +2,14 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
+
+
+
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
+
+app.use(express.static(path.join(__dirname,"/public/css")))// serving static file
+app.use(express.static(path.join(__dirname,"/public/js"))) 
 
 app.get("/", (req, res) => {
   res.render("home.ejs"); // we will render the res in the case of ejs
@@ -35,6 +41,8 @@ app.get("/json/:name", (req, res) => {
     res.render("error.ejs", { error: "404 No Such account" });
   }
 });
+
+
 
 const PORT = 8080;
 app.listen(PORT, () => {
